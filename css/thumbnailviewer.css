@@ -1,0 +1,41 @@
+
+
+#thumbBox{ /*Outermost DIV for thumbnail viewer*/
+position: absolute;
+/*left: 0;
+top: 0;*/
+width: 520px;
+padding: 10px;
+padding-bottom: auto;
+background: #bbbbbb;
+visibility: hidden;
+z-index: 10;
+cursor: hand;
+cursor: pointer;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#thumbBox .footerbar{ /*Footer DIV of thumbbox that contains "close" link */
+font: bold 16px Tahoma;
+letter-spacing: 5px;
+line-height: 1.1em;
+color: #FFFFFF;
+background: #bbbbbb;
+padding: 5px 0;
+text-align: right;
+}
+
+
+#thumbBox #thumbImage{ /*DIV within thumbbox that holds the enlarged image */
+background-color: white;
+height: 408px;
+}
+
+#thumbLoading{ /*DIV for showing "loading" status while thumbbox is being generated*/
+position: absolute;
+visibility: hidden;
+/*border: 0px solid #3a3a3a;*/
+/*background-color: #98e391;*/
+padding: 5px;
+z-index: 5;
+}
