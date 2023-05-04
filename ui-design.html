@@ -1,0 +1,365 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UX/UI design Portfolio</title>
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/thumbnailviewer1.css" type="text/css" />
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	html, body, div {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background: #FFFFFF;
+	height: auto;
+	/*font: 0.9em Arial;*/ 
+} 
+
+
+/*img {width: 100%; height: auto;}*/
+* { margin:0; padding:0; box-sizing:border-box; }	
+	
+* {
+  box-sizing: border-box;
+}
+
+/* column size for Div, class or Block in responsive environment */	
+	/*#col-1nm {width: 8.33%;}
+  	#col-2nm {width: 16.66%;}
+  	#col-3nm {width: 25%;}
+  	#col-4nm {width: 33.33%;}
+  	#col-5nm {width: 41.66%;}
+  	#col-6nm {width: 50%;}
+  	#col-7nm {width: 58.33%;}
+  	#col-8nm {width: 66.66%;}
+  	#col-9nm {width: 75%;}
+  	#col-10nm {width: 83.33%;}
+  	#col-11nm {width: 91.66%;}
+  	#col-12nm {width: 100%;}
+	*/
+.row::after {
+  height: 100%;
+  content: "";
+  clear: both;
+  display: table;
+}
+/*  all class control for all "col-" padding  */
+[class*="col-"] {
+  float: left;
+  /*padding: 15px;*/
+}
+.header {	
+	margin: 0px;
+	padding: 0px;
+	/*height 100px;*/
+	font-size: 24px; 
+	font-weight: bold;
+  	/*background-color: #aaaaaa;*/
+  	background-image: url("images/bkg_pager-topedge.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+  font-family: "Lucida Sans", sans-serif;
+	/*background-size: 160px 112px;*/
+	/*color: #aaa;*/
+	/*border-radius: 0px 30px 0px 30px;*/
+}
+.banner {
+	/*background-color: lightgrey;*/
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	text-align: left;
+	font-size: 14px;
+	}	
+/*#banner-no-margin {background-color: lightgrey;
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	text-align: left;
+	font-size: 14px;
+	}	*/
+/*--------------------------Content_Style---------------------------*/		
+.content {background-color: lavender;
+	margin: 0px;
+	padding: 20px;
+	width: 100%;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	}
+  /*--------------------------Sub Content_Style---------------------------*/		
+  .subcontent {
+  background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0.8em 2em;
+	width: 100%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1em;
+  color: #454545;
+	}  
+/*------------------- container with corner----------*/	
+.cont_cur {background-color: lavender;
+	margin: 0px;
+	padding: 20px;
+	width: 100%;
+	/*border-radius: 0px 10px 0px 10px;*/
+	box-shadow: 0 3px 6px rgba(0,0,0,0.15), 0 3px 6px rgba(0,0,0,0.15);
+	}
+
+
+
+/*-----------------------------Menu_Style---------------------------*/	
+	.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  	padding: 8px;
+  	margin-bottom: 7px;
+  	background-color: #33b5e5;
+  	color: #ffffff;
+  	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border-radius: 0px 8px 0px 8px;
+}
+
+.menu li:hover {
+  	background-color: #0099cc;
+}
+
+.aside {
+  	background-color: #33b5e5;
+	margin: 0px 0px;
+ 	padding: 15px;
+  	color: #ffffff;
+  	text-align: center;
+  	font-size: 14px;
+  	/*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+}
+
+.footer {
+  /*background-color: #0099cc;*/
+background-image: url("images/bkg_pager-botedge.png");
+	background-repeat: no-repeat;
+  background-position: right bottom;
+  color: #454545;
+	height: 50px;
+	  /*background-position: right; */
+  text-align: center;
+  font-size: 0.6em;
+  padding: 15px;
+	border-radius: 30px 0px 0px 30px;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+/* --------media query for mobile device screen size------ */	
+@media only screen and (max-width: 640px) {
+  /* For Mobile: */
+ [class*="col-"] {
+  width: 100%;}
+/* wrapper for mobile device */
+.col-m-1 {width: 8.33%;}
+  .col-m-2 {width: 16.66%;}
+  .col-m-3 {width: 25%;}
+  .col-m-4 {width: 33.33%;}
+  .col-m-5 {width: 41.66%;}
+  .col-m-6 {width: 50%; padding: 0px 20px;}
+  .col-m-7 {width: 58.33%;}
+  .col-m-8 {width: 66.66%;}
+  .col-m-9 {width: 75%;}
+  .col-m-10 {width: 83.33%;}
+  .col-m-11 {width: 91.66%;}
+  .col-m-12 {width: 100%;}
+.wrapper-m {
+	width: 95%;  
+	margin: 0px auto;
+  padding: 0px;
+	display: table; /* must put this in for FireFox. */
+	position: static;
+	border-radius: 0px 75px 80px 0px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	}
+  h3 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1.2em;
+text-align: center;
+font-weight: lighter;
+}
+* {height: auto;}
+}
+/* media query for screen size above 600 or tablet screen size */	
+@media only screen and (min-width: 641px) {
+  /* For tablets: */
+
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%; padding: 0px 20px;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+  .wrapper-s {
+	width: 85%;  
+	margin: 0px auto;
+  text-align: left;
+	display: table; /* must put this in for FireFox. */
+	position: static;
+	border-radius: 0px 75px 80px 0px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	}
+  h3 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1.6em;
+text-align: center;
+font-weight: lighter;
+}
+* {height: auto;}
+}
+/* media query for screen size above 768 or computer/laptop screen size */	
+@media only screen and (min-width:1024px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%; padding: 0px 30px;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+	.wrapper-b {
+	width: 80%;
+  font-size: larger;
+	/*max-width: 0px;*/
+	margin: 0px auto;
+	display: table; /* must put this in for FireFox. */
+	position: static;
+	border-radius: 0px 75px 80px 0px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	}
+  h3 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1.8em;
+text-align: center;
+font-weight: lighter;
+}
+* {height: auto;}
+
+}
+/* navscreen size*/
+
+/*@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}*/
+</style>
+<script src="script/thumbnailviewer.js" type="text/javascript"></script>
+
+</head>
+<body>
+<div class="wrapper-m wrapper-s wrapper-b">
+<!--             Navigation header start here           -->		
+<div class="header">
+  <!-- Navigation code start here -->
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <!--div class="logo"><a href="#">CodingLab</a></div-->
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <!--span class="logo-name">CodingLab</span-->
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="#">Design Portfolio</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="ui-design.html">UX/UI Design</a></li>
+              <li><a href="visual-design.html">Visual Design</a></li>
+              <li><a href="studpro-design.html">Students' Project Design</a></li>
+              <!--li class="more">
+                <span><a href="#">More</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">Neumorphism</a></li>
+                  <li><a href="#">Pre-loader</a></li>
+                  <li><a href="#">Glassmorphism</a></li>
+                </ul>
+              </li-->
+            </ul>
+          </li>
+          <li>
+            <a href="illustration.html">Illustration</a>
+            <!--i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">Dynamic Clock</a></li>
+              <li><a href="#">Form Validation</a></li>
+              <li><a href="#">Card Slider</a></li>
+              <li><a href="#">Complete Website</a></li>
+            </ul>
+          </li-->
+          <li><a href="photography.html">Photography</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+</div>
+<script src="script/script.js"></script>
+<!--          Navigation code end here          -->
+<!--             Main Banner start here           -->	
+	<div class="banner">
+		<img style="max-width: 100%; height: auto;" src="images/ui_design/uxui_banner.jpg"/>
+  </div>
+  
+<div class="row">
+    <div class="subcontent">
+<h3>The UX/UI Designer</h3> 
+<br><br>
+As a UX/UI designer with more than two decades of experience, knowledge of web development, and unique perspective on how to create effective and user-friendly web interfaces that are both aesthetically pleasing and functional. I have also worked on a wide range of projects, from simple websites to complex web applications and banking transaction prototypes. Throughout my career, I have honed my skills in web UX/UI design, project management and a team leader that needs to collaborated with stakeholders across different departments, that enable me to deliver high-quality design solutions that meet the needs of my clients. As a corporate webmaster at Ngee Ann polytechnic, I gained invaluable experience in creating and maintaining corporate websites that effectively communicate the brand message and engage with my clients’ target audience.
+<br><br>
+My approach to UX/UI design is based on a deep understanding of users’ needs and behaviors. I work closely with the development team to create a design that is not only visually appealing but also easy to navigate. My understanding of importance consistency and the coherence across different digital touchpoints, and platform was to ensure a seamless user experience, I leverage my vast knowledge of web development to ensure that the design is function feasible and can be implemented efficiently. 
+ <br><br>
+
+  </div>
+  <div class="col-12 col-s-12 col-m-12">
+<div class="col-4 col-s-4 col-m-6"><a href="images/ui_design/img_pop_did.jpg" rel="thumbnail"><img src="images/ui_design/btn_did.jpg" style="max-width: 100%; height: auto;" alt=""/></a></div>
+<div class="col-4 col-s-4 col-m-6"><a href="images/ui_design/img_pop_sst.jpg" rel="thumbnail"><img src="images/ui_design/btn_sst.jpg" style="max-width: 100%; height: auto;" alt="" /></a></div>
+<div class="col-4 col-s-4 col-m-6"><a href="images/ui_design/img_pop_advance.jpg" rel="thumbnail"><img src="images/ui_design/btn_advance.jpg" style="max-width: 100%; height: auto;" alt="" /></a></div>
+<div class="col-4 col-s-4 col-m-6"><a href="images/ui_design/img_pop_nexs.jpg" rel="thumbnail"><img src="images/ui_design/btn_nexs.jpg" style="max-width: 100%; height: auto;" alt=""/></a></div>
+<div class="col-4 col-s-4 col-m-6"><a href="images/ui_design/img_pop_tso.jpg" rel="thumbnail"><img src="images/ui_design/btn_tso.jpg" style="max-width: 100%; height: auto;" alt=""/></a></div>
+<div class="col-4 col-s-4 col-m-6"><a href="images/ui_design/img_pop_imedia.jpg" rel="thumbnail"><img src="images/ui_design/btn_imedia.jpg" style="max-width: 100%; height: auto;" alt=""/></a></div> 
+<div class="col-12 col-s-12 col-m-12">
+  <div class="col-4 col-s-4 col-m-6"><a href="images/ui_design/img_pop_ps2011.jpg" rel="thumbnail"><img src="images/ui_design/btn_ps2011.jpg" style="max-width: 100%; height: auto;" alt=""/></a></div>
+  <div class="col-4 col-s-4 col-m-6"><a href="images/ui_design/img_pop_ps2010.jpg" rel="thumbnail"><img src="images/ui_design/btn_ps2010.jpg" style="max-width: 100%; height: auto;" alt="" /></a></div>
+  <div class="col-4 col-s-4 col-m-6"><a href="images/ui_design/img_pop_ps2008.jpg" rel="thumbnail"><img src="images/ui_design/btn_ps2008.jpg" style="max-width: 100%; height: auto;" alt="" /></a></div>
+  <div class="col-4 col-s-4 col-m-6"><a href="images/ui_design/img_pop_uob.jpg" rel="thumbnail"><img src="images/ui_design/btn_uob.jpg" style="max-width: 100%; height: auto;" alt=""/></a></div>
+  <div class="col-4 col-s-4 col-m-6"><a href="images/ui_design/img_pop_tdo.jpg" rel="thumbnail"><img src="images/ui_design/btn_tdo.jpg" style="max-width: 100%; height: auto;" alt=""/></a></div>
+  <div class="col-4 col-s-4 col-m-6"><a href="images/ui_design/img_pop_mes.jpg" rel="thumbnail"><img src="images/ui_design/btn_mes.jpg" style="max-width: 100%; height: auto;" alt=""/></a></div> 
+</div>
+</div>
+<!--    wapper div cannot be remove below    -->
+</div>	
+<!--    wapper div cannot be remove below    -->
+<div class="footer">
+  <p>Copyright © 2023 Ron Neo. All rights reserved.</p>
+</div>
+</div>
+	
+
+</body>
+</html>
+
