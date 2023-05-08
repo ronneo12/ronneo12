@@ -4,7 +4,7 @@
 position: absolute;
 /*left: 0;
 top: 0;*/
-width: 382px;
+width: 387px;
 padding: 6px;
 padding-bottom: auto;
 background: #bbbbbb;
@@ -28,7 +28,7 @@ text-align: right;
 
 #thumbBox #thumbImage{ /*DIV within thumbbox that holds the enlarged image */
 background-color: white;
-height: 307px;
+height: 405px;
 }
 
 #thumbLoading{ /*DIV for showing "loading" status while thumbbox is being generated*/
