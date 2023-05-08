@@ -28,7 +28,7 @@ text-align: right;
 
 #thumbBox #thumbImage{ /*DIV within thumbbox that holds the enlarged image */
 background-color: white;
-height: 540px;
+height: 307px;
 }
 
 #thumbLoading{ /*DIV for showing "loading" status while thumbbox is being generated*/
