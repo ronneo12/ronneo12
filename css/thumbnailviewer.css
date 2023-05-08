@@ -4,7 +4,8 @@
 position: absolute;
 /*left: 0;
 top: 0;*/
-width: 520px;
+/*max-width: 100%;*/
+width: 540px;
 padding: 10px;
 padding-bottom: auto;
 background: #bbbbbb;
