@@ -43,6 +43,14 @@ font-size: 1.2em;
 text-align: left;
 font-weight: bold;
 }
+h6 { font-family:'Arial Narrow', Arial , sans-serif, Franklin Gothic Narrow;
+font-size: 0.8em;
+text-align: left;
+font-weight: normal; 
+color: #999;
+text-align: center;
+padding: 0em 5em 0em 5em;
+}
 .imgcont {
   margin: 0;
 	padding: 0em 0.5em 0em 0.5em;
@@ -95,6 +103,14 @@ font-size: 1.2em;
 text-align: left;
 font-weight: bold;
 }
+h6 { font-family:'Arial Narrow', Arial , sans-serif, Franklin Gothic Narrow;
+font-size: 0.8em;
+text-align: left;
+font-weight: normal;
+color: #999;
+text-align: center;
+padding: 0em 5em 0em 5em;
+}
 .imgcont {
   margin: 0;
 	padding: 0.2em 0.5em 0.2em 0.5em;
@@ -144,6 +160,14 @@ h5 { font-family:'Arial Narrow', Arial , sans-serif, Franklin Gothic Narrow;
 font-size: 1.2em;
 text-align: left;
 font-weight: bold;
+}
+h6 { font-family:'Arial Narrow', Arial , sans-serif, Franklin Gothic Narrow;
+font-size: 0.8em;
+text-align: left;
+font-weight: normal;
+color: #999;
+text-align: center;
+padding: 0em 5em 0em 5em;
 }
 .imgcont {
   margin: 0;
